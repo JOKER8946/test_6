@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Large files exceeding GitHub 100MB limit (GloVe embeddings are downloaded automatically by src/04_bilstm_glove.py)
+artifacts/glove/*
+!artifacts/glove/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,28 @@
+{
+  "key": "tfidf_lr",
+  "name": "TF-IDF + LogisticRegression",
+  "family": "Classical floor",
+  "rung": 0,
+  "dev": {
+    "macro_f1": 0.8902933589582753,
+    "accuracy": 0.8899350649350649,
+    "macro_precision": 0.895183973869258,
+    "macro_recall": 0.8899350649350648
+  },
+  "test": {
+    "macro_f1": 0.8902933589582753,
+    "accuracy": 0.8899350649350649,
+    "macro_precision": 0.895183973869258,
+    "macro_recall": 0.8899350649350648
+  },
+  "train_seconds": 19.7,
+  "model_size_mb": 15.4,
+  "params": 1817816,
+  "epochs_run": null,
+  "history": null,
+  "config": {
+    "ngram_range": "1-2",
+    "max_features": 50000,
+    "C": 5.0
+  }
+}

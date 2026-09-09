@@ -1,0 +1,280 @@
+{
+  "best_key": "bilstm_glove",
+  "best_name": "BiLSTM + GloVe (enhanced)",
+  "n_test": 3080,
+  "n_wrong": 280,
+  "error_rate": 0.09090909090909091,
+  "confused_pairs": [
+    {
+      "true": "74",
+      "predicted": "69",
+      "count": 7,
+      "examples": [
+        "What is the need to verify my identity?",
+        "Do I have to do the identity check?",
+        "I would like to not have to do the identity verification."
+      ]
+    },
+    {
+      "true": "29",
+      "predicted": "37",
+      "count": 5,
+      "examples": [
+        "Do these virtual cards have any caps on using them?",
+        "What if I need multiple disposable cards?",
+        "Are there any hindrances to using a disposable virtual card?"
+      ]
+    },
+    {
+      "true": "36",
+      "predicted": "33",
+      "count": 4,
+      "examples": [
+        "Am I able to exchange currencies?",
+        "I want to make a currency exchange to EU.",
+        "Can I exchange currencies?"
+      ]
+    },
+    {
+      "true": "27",
+      "predicted": "25",
+      "count": 4,
+      "examples": [
+        "Good morning. I tried to make a purchase with my credit card last night and again this morning. Both times it was declined. Can you investigate?",
+        "When I try and to buy something using my card it keeps getting declined.",
+        "My card is being declined online. Could you tell me what might be broken or wrong with the account?"
+      ]
+    },
+    {
+      "true": "48",
+      "predicted": "5",
+      "count": 4,
+      "examples": [
+        "I transferred money yesterday, but it still isn't available?",
+        "Someone transferred money to me and it doesn't show",
+        "How long does a transfer take to be confirmed?"
+      ]
+    },
+    {
+      "true": "67",
+      "predicted": "5",
+      "count": 4,
+      "examples": [
+        "how long dies it take for transfers to reflect on my balance",
+        "When should I expect to see my transfer hit my account?",
+        "When does the money get transferred to my account"
+      ]
+    },
+    {
+      "true": "5",
+      "predicted": "67",
+      "count": 4,
+      "examples": [
+        "When will my transfer be available in my account.",
+        "I made a transfer and it doesnt' show up in my account.",
+        "How long until my transfer will be available to me"
+      ]
+    },
+    {
+      "true": "69",
+      "predicted": "74",
+      "count": 4,
+      "examples": [
+        "What do you need for my identity check?",
+        "Is there a specific type you need for identity verification?",
+        "I need some help with identity verification."
+      ]
+    },
+    {
+      "true": "11",
+      "predicted": "12",
+      "count": 3,
+      "examples": [
+        "When will I get my card?",
+        "How long does a card delivery take?",
+        "How do I know when my card will arrive?"
+      ]
+    },
+    {
+      "true": "75",
+      "predicted": "26",
+      "count": 3,
+      "examples": [
+        "Why did I not get my cash back after I withdrew?",
+        "My cash withdrawal was partly declined",
+        "Will declined funds I tried to withdraw be returned to me?"
+      ]
+    },
+    {
+      "true": "66",
+      "predicted": "5",
+      "count": 3,
+      "examples": [
+        "how long do money transfers take?",
+        "Where is the transfer I started?",
+        "The receipient doesn't see my money transfer."
+      ]
+    },
+    {
+      "true": "66",
+      "predicted": "35",
+      "count": 3,
+      "examples": [
+        "transaction failed?",
+        "I need to find out why my transfer didn't get there.",
+        "I transferred some money but the receiver can't pick it up for some reason."
+      ]
+    }
+  ],
+  "weakest_classes": [
+    {
+      "label": "5",
+      "f1": 0.7142857142857143,
+      "precision": 0.6818181818181818,
+      "recall": 0.75,
+      "support": 40
+    },
+    {
+      "label": "48",
+      "f1": 0.7948717948717948,
+      "precision": 0.8157894736842105,
+      "recall": 0.775,
+      "support": 40
+    },
+    {
+      "label": "74",
+      "f1": 0.8,
+      "precision": 0.8,
+      "recall": 0.8,
+      "support": 40
+    },
+    {
+      "label": "37",
+      "f1": 0.8192771084337349,
+      "precision": 0.7906976744186046,
+      "recall": 0.85,
+      "support": 40
+    },
+    {
+      "label": "62",
+      "f1": 0.8192771084337349,
+      "precision": 0.7906976744186046,
+      "recall": 0.85,
+      "support": 40
+    },
+    {
+      "label": "69",
+      "f1": 0.8192771084337349,
+      "precision": 0.7906976744186046,
+      "recall": 0.85,
+      "support": 40
+    },
+    {
+      "label": "36",
+      "f1": 0.8205128205128205,
+      "precision": 0.8421052631578947,
+      "recall": 0.8,
+      "support": 40
+    },
+    {
+      "label": "67",
+      "f1": 0.825,
+      "precision": 0.825,
+      "recall": 0.825,
+      "support": 40
+    },
+    {
+      "label": "29",
+      "f1": 0.8266666666666667,
+      "precision": 0.8857142857142857,
+      "recall": 0.775,
+      "support": 40
+    },
+    {
+      "label": "35",
+      "f1": 0.8314606741573034,
+      "precision": 0.7551020408163265,
+      "recall": 0.925,
+      "support": 40
+    }
+  ],
+  "strongest_classes": [
+    {
+      "label": "71",
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 40
+    },
+    {
+      "label": "44",
+      "f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 40
+    },
+    {
+      "label": "9",
+      "f1": 0.9876543209876543,
+      "precision": 0.975609756097561,
+      "recall": 1.0,
+      "support": 40
+    },
+    {
+      "label": "70",
+      "f1": 0.9876543209876543,
+      "precision": 0.975609756097561,
+      "recall": 1.0,
+      "support": 40
+    },
+    {
+      "label": "2",
+      "f1": 0.9873417721518988,
+      "precision": 1.0,
+      "recall": 0.975,
+      "support": 40
+    },
+    {
+      "label": "1",
+      "f1": 0.9873417721518988,
+      "precision": 1.0,
+      "recall": 0.975,
+      "support": 40
+    },
+    {
+      "label": "0",
+      "f1": 0.9873417721518988,
+      "precision": 1.0,
+      "recall": 0.975,
+      "support": 40
+    },
+    {
+      "label": "63",
+      "f1": 0.975609756097561,
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "support": 40
+    },
+    {
+      "label": "38",
+      "f1": 0.975609756097561,
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "support": 40
+    },
+    {
+      "label": "30",
+      "f1": 0.975609756097561,
+      "precision": 0.9523809523809523,
+      "recall": 1.0,
+      "support": 40
+    }
+  ],
+  "agreement_with_best": {
+    "tfidf_lr": 0.8918831168831168,
+    "simple_rnn": 0.8288961038961039,
+    "gru": 0.862012987012987,
+    "lstm": 0.8762987012987012,
+    "bilstm_glove": 1.0
+  }
+}

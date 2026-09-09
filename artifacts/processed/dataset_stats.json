@@ -1,0 +1,133 @@
+{
+  "n_classes": 77,
+  "rows": {
+    "train": 9973,
+    "dev": 3080,
+    "test": 3080
+  },
+  "vocab_size": 2388,
+  "oov_rate_dev": 0.006935836137181984,
+  "token_len": {
+    "mean": 11.996189712223002,
+    "max": 79,
+    "p50": 10,
+    "p90": 22,
+    "p95": 29,
+    "p99": 43
+  },
+  "max_len_coverage": 0.9863631805875864,
+  "class_counts": {
+    "15": 187,
+    "28": 182,
+    "6": 181,
+    "75": 180,
+    "19": 177,
+    "63": 175,
+    "26": 172,
+    "66": 171,
+    "64": 171,
+    "5": 171,
+    "52": 169,
+    "16": 168,
+    "17": 167,
+    "34": 164,
+    "76": 163,
+    "51": 162,
+    "53": 161,
+    "20": 160,
+    "0": 159,
+    "45": 159,
+    "8": 157,
+    "7": 156,
+    "11": 153,
+    "25": 152,
+    "48": 148,
+    "47": 145,
+    "59": 143,
+    "46": 143,
+    "61": 142,
+    "13": 139,
+    "35": 137,
+    "73": 135,
+    "27": 132,
+    "39": 129,
+    "9": 129,
+    "24": 129,
+    "54": 129,
+    "67": 128,
+    "36": 126,
+    "4": 126,
+    "2": 124,
+    "71": 123,
+    "29": 121,
+    "31": 121,
+    "42": 121,
+    "21": 121,
+    "74": 121,
+    "30": 121,
+    "43": 120,
+    "33": 118,
+    "58": 114,
+    "49": 114,
+    "57": 114,
+    "70": 113,
+    "65": 113,
+    "32": 112,
+    "12": 112,
+    "14": 111,
+    "56": 111,
+    "1": 110,
+    "55": 108,
+    "38": 106,
+    "69": 104,
+    "44": 104,
+    "62": 103,
+    "68": 102,
+    "40": 98,
+    "37": 96,
+    "50": 95,
+    "60": 95,
+    "22": 86,
+    "3": 86,
+    "41": 82,
+    "18": 61,
+    "10": 59,
+    "72": 41,
+    "23": 35
+  },
+  "imbalance_ratio": 5.3428571428571425,
+  "examples": [
+    {
+      "text": "My cash deposit isn't in my account. What happened?",
+      "label_name": "6"
+    },
+    {
+      "text": "Why did I not get all the money that I asked for? I asked for all the cash in my my account, but I only got about half. Why is that??",
+      "label_name": "75"
+    },
+    {
+      "text": "Is it possible to have more than one disposable card?",
+      "label_name": "29"
+    },
+    {
+      "text": "I haven't received my card.",
+      "label_name": "11"
+    },
+    {
+      "text": "I just took some cash out of a cash machine in Heathrow airport because I wanted to buy some new sunglasses for my holiday but you've added a fee to the withdrawal, what is this?",
+      "label_name": "19"
+    },
+    {
+      "text": "My card still hasn't been delivered",
+      "label_name": "11"
+    },
+    {
+      "text": "On a card payment, why is there a fee?",
+      "label_name": "15"
+    },
+    {
+      "text": "Why do you need all these details about my identity?",
+      "label_name": "74"
+    }
+  ]
+}
